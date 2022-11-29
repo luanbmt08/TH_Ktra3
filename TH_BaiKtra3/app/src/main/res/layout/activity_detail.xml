@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ECE4A1"
+    android:layout_height="match_parent"
+    tools:context=".Detail">
+    <TextView
+        android:text="VÍ DỤ VỀ NGÔN NGỮ"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+            <EditText
+                android:background="@drawable/edittext"
+                android:hint="NHẬP VÍ DỤ "
+                android:textColorHint="#534F4F"
+                android:textSize="20dp"
+                android:id="@+id/txtnhapvidu"
+                android:textColor="#534F4F"
+
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:paddingLeft="12dp"
+                android:layout_height="60dp">
+            </EditText>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:textColor="#EF0707"
+            android:text="LƯU "
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#8BC34A"
+            android:id="@+id/btnLuu"
+            android:onClick="saveData">
+
+        </androidx.appcompat.widget.AppCompatButton>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listLuu"/>
+
+
+
+
+
+
+
+</LinearLayout>
